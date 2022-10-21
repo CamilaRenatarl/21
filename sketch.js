@@ -61,15 +61,19 @@ ghost.velocityY=-0.8
   
        // ghost.velocityY= 10;
          ghost.y=ghost.y -10
-
+         ghost.velocityY = ghost.velocityY +0.8 
       //escribir el código para mover el fantasma hacia arriba al presionar la flecha arriba 
     
     }
 
     
-  
-  gravity=+3
-    ghost.velocityY=  0.8;
+    ghost.velocityY = ghost.velocityY +0.8 
+
+
+
+
+  //gravity=+3
+    //ghost.velocityY=  0.8;
 
    
       //escribir una condición para desplazar infinitamente la torre
